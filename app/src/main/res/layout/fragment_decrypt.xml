@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputEncryptedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите зашифрованное сообщение"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/inputD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите закрытый ключ d" />
+
+    <EditText
+        android:id="@+id/inputN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите n" />
+
+    <TextView
+        android:id="@+id/encryptedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Зашифрованное сообщение будет здесь"
+        android:paddingTop="16dp" />
+
+    <Button
+        android:id="@+id/btnDecrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Расшифровать" />
+
+    <TextView
+        android:id="@+id/decryptedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Расшифрованное сообщение будет здесь" />
+</LinearLayout>

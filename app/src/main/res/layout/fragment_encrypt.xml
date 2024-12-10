@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите p" />
+
+    <EditText
+        android:id="@+id/inputQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите q" />
+
+    <EditText
+        android:id="@+id/inputE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите открытый ключ e" />
+
+    <EditText
+        android:id="@+id/inputMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите сообщение для шифрования" />
+
+    <Button
+        android:id="@+id/btnEncrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Зашифровать" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Результат будет здесь" />
+
+    <Button
+        android:id="@+id/btnCopy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Скопировать результат"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
